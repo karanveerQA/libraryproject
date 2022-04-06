@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 700px;
+
+  font-size: 32px;
+}
+
+.form--container {
+  margin: 10px auto;
+  height: 300px;
+  width: 800px;
+  border-radius: 50px;
+}
+
+.username--container,
+.password--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+form input {
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.img--container {
+  display: flex;
+  justify-content: center;
+}
+
+.validation--div {
+  position: absolute;
+}

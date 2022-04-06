@@ -1,0 +1,33 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    font-family: 'Inter',sans-serif;
+    font-weight:700;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+
+
+
+
+
+
+
+    
+
+}
+
+
+form input
+
+{
+
+    height:30px;
+    width:100px;
+}

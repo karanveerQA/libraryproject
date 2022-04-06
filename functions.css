@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 700px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form--container1 {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.label--div,
+.input--div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.input--div {
+  background-color: #fff;
+  color: #000;
+}
